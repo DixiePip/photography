@@ -1,0 +1,186 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+body {
+  background-color: #0081b8;
+}
+
+
+.background_1 {
+  background: url('../img/1.jpg');
+}
+.background_2 {
+  background: url('../img/2.jpg');
+}
+.background_3 {
+  background: url('../img/3.jpg');
+}
+.background_4 {
+  background: url('../img/4.jpg');
+}
+.background_5 {
+  background: url('../img/5.jpg');
+}
+.background_6 {
+  background: url('../img/6.jpg');
+}
+.background_7 {
+  background: url('../img/7.jpg');
+}
+.background_8 {
+  background: url('../img/8.jpg');
+}
+.background_9 {
+  background: url('../img/9.jpg');
+}
+
+.background_1 h2,
+.background_2 h2,
+.background_3 h2,
+.background_4 h2,
+.background_5 h2,
+.background_6 h2,
+.background_7 h2,
+.background_8 h2,
+.background_9 h2,
+.background_10 h2 {
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  color: #fff;
+  font-size: 10vw;
+  text-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+.background_10 h2 {
+  font-size: 4vw;
+  text-align: left;
+  margin-left: 15px;
+  font-weight: 100;
+  width: 60%;
+}
+.www a { color: #fff;
+text-decoration: underline;
+}
+.background_10 p {
+  font-size: 4vw;
+  text-align: left;
+  margin-left: 15px;
+  font-weight: 100;
+  width: 50%;
+  color: rgb(255, 255, 255);
+}
+.background_1 h3,
+.background_2 h3,
+.background_3 h3,
+.background_4 h3,
+.background_5 h3,
+.background_6 h3,
+.background_7 h3,
+.background_8 h3,
+.background_9 h3 {
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.background_1 h3 a,
+.background_2 h3 a,
+.background_3 h3 a,
+.background_4 h3 a,
+.background_5 h3 a,
+.background_6 h3 a,
+.background_7 h3 a,
+.background_8 h3 a,
+.background_9 h3 a,
+.background_10 h2 a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+
+@media (max-width: 560px) {
+  .background_1 {
+    background: url('../img/1.jpg') no-repeat center top / cover;
+  }
+  .background_2 {
+    background: url('../img/2.jpg') no-repeat center top / cover;
+  }
+  .background_3 {
+    background: url('../img/3.jpg') no-repeat center top / cover;
+  }
+  .background_4 {
+    background: url('../img/4.jpg') no-repeat center top / cover;
+  }
+  .background_5 {
+    background: url('../img/5.jpg') no-repeat center top / cover;
+  }
+  .background_6 {
+    background: url('../img/6.jpg') no-repeat center top / cover;
+  }
+  .background_7 {
+    background: url('../img/7.jpg') no-repeat center top / cover;
+  }
+  .background_8 {
+    background: url('../img/8.jpg') no-repeat center top / cover;
+  }
+  .background_9 {
+    background: url('../img/9.jpg') no-repeat center top / cover;
+  }
+  .background_10 {
+    background-color: #0081b8;
+  }
+
+
+  .section h2, h3 a {
+    font-family: 'Dancing Script';
+  }
+
+
+  .logo_sticky {
+    z-index: 10;
+    position: sticky;
+  }
+  .logo_sticky h1,p {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  .logo_sticky h1 {
+    font-size: 7vw;
+    font-weight: 100;
+    color: #fff;
+    position: relative;
+    background-blend-mode: difference;
+  }
+
+
+
+  .footer_sticky {
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    bottom: 0;
+  }
+  .footer_sticky ul {
+    padding: 0;
+    margin: 0 15px 15px 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer_sticky ul li {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 4vw;
+    list-style-type: none;
+  }
+  .footer_sticky ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+
+
+}
+  
+
+

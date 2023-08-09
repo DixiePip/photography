@@ -1,0 +1,121 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
+
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  height: 40vh;
+  flex-grow: 1;
+}
+
+li:last-child {
+  flex-grow: 10;
+}
+
+img {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
+
+
+
+@media (max-aspect-ratio: 1/1) {
+  li {
+    height: 30vh;
+  }
+}
+@media (max-height: 480px) {
+  li {
+    height: 80vh;
+  }
+}
+@media (max-aspect-ratio: 1/1) and (max-width: 480px) {
+  ul {
+    flex-direction: row;
+  }
+
+  li {
+    height: auto;
+    width: 100%;
+  }
+  img {
+    width: 100%;
+    max-height: 75vh;
+    min-width: 0;
+  }
+}
+
+
+@media (max-height: 2000px) {
+  .logo_sticky {
+    z-index: 100;
+    position: fixed;
+    text-align: center;
+    left: 25%;
+  }
+  .logo_sticky h1,p {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  .logo_sticky h1 {
+    font-size: 7vw;
+    font-weight: 100;
+    color: #fff;
+    position: fixed;
+    top: 15px;
+  }
+    .logo_sticky p {
+      top: 55px;
+      position: fixed;
+      left: 39%;
+    } 
+  
+  
+  
+  .footer_sticky {
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    bottom: 0;
+  }
+  .footer_sticky ul {
+    padding: 0;
+    margin: 0 15px 15px 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer_sticky ul li {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 4vw;
+    list-style-type: none;
+    margin-bottom: 10px;
+  }
+  .footer_sticky ul li:last-child {
+    margin-bottom: 0;
+  }
+  .footer_sticky ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+}
+
+
